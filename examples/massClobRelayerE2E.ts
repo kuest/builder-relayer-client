@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync, appendFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
-import { BuilderConfig } from "@kuestcom/builder-signing-sdk";
+import { BuilderConfig } from "@kuest/builder-signing-sdk";
 import {
     ClobClient,
     OrderType,

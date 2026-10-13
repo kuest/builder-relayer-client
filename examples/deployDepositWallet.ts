@@ -1,7 +1,7 @@
 import { config as dotenvConfig } from "dotenv";
 import { resolve } from "path";
 import { RelayClient } from "../src/client";
-import { BuilderApiKeyCreds, BuilderConfig } from "@kuestcom/builder-signing-sdk";
+import { BuilderApiKeyCreds, BuilderConfig } from "@kuest/builder-signing-sdk";
 import { privateKeyToAccount } from "viem/accounts";
 import { createWalletClient, Hex, http } from "viem";
 import { polygon } from "viem/chains";

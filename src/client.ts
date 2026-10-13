@@ -1,6 +1,6 @@
 import { JsonRpcSigner, Wallet } from "ethers";
 import { WalletClient } from "viem";
-import { BuilderConfig, BuilderHeaderPayload } from "@kuestcom/builder-signing-sdk";
+import { BuilderConfig, BuilderHeaderPayload } from "@kuest/builder-signing-sdk";
 import { createAbstractSigner, IAbstractSigner } from "./signer";
 import { GET, POST, HttpClient, RequestOptions } from "./http-helpers";
 import {
